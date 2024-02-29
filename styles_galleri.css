@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background: RGB(11 23 37);
+}
+
+main {
+	margin: auto 80px;
+}
+
+/*NAV MENY*/
+nav {
+	font-family: "Bebas Neue", sans-serif;
+	background-color: RGB(11 23 37);
+	text-align: center;
+	font-size: 40pt;
+	height: 85px;
+	padding: 15px 10px 0px;
+}
+
+ul {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+
+.meny1 { /*CLASS FÖR NAVmeny*/
+	display: inline;
+	float: middle;
+}
+
+.link {
+	display: inline;
+	text-decoration: none;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color:rgba(211,50,136,1.00)
+}
+
+.meny2 {
+	display: inline;
+	text-decoration: none;
+	float: center;
+}
+
+a:hover {
+	background-color: aliceblue;
+	padding: 10px;
+}
+
+
+/*img-galleri inställningar aka flexbox*/
+#flexbox {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*storlek på bilderna i galleriet*/
+#bild1, #bild2, #bild3, #bild4, #bild5, #bild6, #bild7, #bild8, #bild9 {
+	padding: 15px;
+	width: 500px;
+}
+
+img {
+	padding: 15px;
+}
+
+.color img {
+	filter: grayscale(100%);
+	webkit-filter: grayscale(100%);
+	webkit-transition: all 0.3s ease;
+}
+
+.color img:hover{
+	filter: grayscale(0%);
+	gray: gray;
+	webkit-filter: grayscale(0%);
+	filter: none;
+	transition: 0.3s ease;
+}
+
+
+
+/*footer*/
+footer {
+	color: RGB(211 50 136); 
+	font-family: "IBM Plex Sans", sans-serif;
+	text-align: center;
+	padding: 15px;
+}
+
+/*TYPSNITT*/
+.ibm-plex sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
