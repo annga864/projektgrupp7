@@ -1,0 +1,251 @@
+/*NAV MENY*/
+nav {
+	font-family: "Bebas Neue", sans-serif;
+	background-color: RGB(11 23 37);
+	text-align: center;
+	font-size: 40pt;
+	height: 85px;
+	padding: 15px 10px 0px;
+}
+
+ul {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+
+.meny1 { /*CLASS FÖR NAVmeny*/
+	display: inline;
+	float: middle;
+}
+
+.link {
+	display: inline;
+	text-decoration: none;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color:rgba(211,50,136,1.00)
+}
+
+.meny2 {
+	display: inline;
+	text-decoration: none;
+	float: center;
+}
+
+a:hover {
+	background-color: aliceblue;
+	padding: 10px;
+}
+/*slut på nav meny*/
+
+body {
+    background-color: #0C1723;
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: KHGummi;
+    src: url(KHGummi.otf);
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.meny2 {
+    font-family: Bebas Neue;
+    font-size: 30pt;
+    color: #D33288;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.link {
+    display: inline;
+}
+
+.start {
+    font-family: KHGummi;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 30px;
+}
+
+.galleri {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 330px;
+    justify-content: center;
+    gap: 50px
+}
+
+.pic1 {
+    background-color: #F5E11E;
+    width: 300px;
+    height: 400px;
+}
+
+.pic2 {
+    background-color: #D33288;
+    width: 300px;
+    height: 400px;
+}
+
+.pic3 {
+    background-color: #8BBE2C;
+    width: 300px;
+    height: 400px;
+}
+
+.char1 {
+    color: white;
+    text-align: left;
+    font-family: IBM Plex Sans;
+}
+
+.char2 {
+    color: white;
+    text-align: center;
+    font-family: IBM Plex Sans;
+}
+
+.char3 {
+    color: white;
+    text-align: right;
+    font-family: IBM Plex Sans;
+}
+
+.knapp {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: #D33288;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: IBM Plex Sans;
+    font-size: 16pt;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: #D33288;
+    border-width: 4px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 14px;
+}
+
+button:hover {
+    color: white;
+    background-color: #D33288;
+    border-color: white;
+    cursor: pointer;
+}
+
+.fraga {
+    color: #D33288;
+    font-family: Bebas Neue;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 22pt;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.svar {
+    color: white;
+    font-family: IBM Plex Sans;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 12px;
+}
+
+.quiz {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+#knapp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+#resultatText {
+    display: none;
+}
+
+.f1 {
+    margin-bottom: 35px;
+}
+
+.f2 {
+    margin-bottom: 35px;
+}
+
+.f3 {
+    margin-bottom: 35px;
+}
+
+.f4 {
+    margin-bottom: 35px;
+}
+
+.f5 {
+    margin-bottom: 35px;
+}
+
+.f6 {
+    margin-bottom: 35px;
+}
+
+.f7 {
+    margin-bottom: 35px;
+}
+
+.f8 {
+    margin-bottom: 35px;
+}
+
+.f9 {
+    margin-bottom: 35px;
+}
+
+.f10 {
+    margin-bottom: 35px;
+}
+#resultat{
+    font-family: IBM Plex Sans;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: -5px;
+}
