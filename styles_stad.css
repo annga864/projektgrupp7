@@ -14,18 +14,10 @@ nav {
 	position: sticky;
 }
 
-.meny3 {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	list-style-type: none;
-}
-
 .meny1 {
 	/*CLASS FÖR NAVmeny*/
 	display: inline;
 	float: center;
-	font-family: "Bebas Neue", sans-serif;
 }
 
 .link {
