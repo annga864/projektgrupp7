@@ -18,6 +18,7 @@ nav {
 	/*CLASS FÖR NAVmeny*/
 	display: inline;
 	float: center;
+	padding: 0px;
 }
 
 .link {
