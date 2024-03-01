@@ -34,7 +34,7 @@ a {
 	display: block;
 	padding: 10px;
 	text-decoration: none;
-	color: rgba(211, 50, 136, 1.00)
+	color: rgba(211, 50, 136, 1.00);
 }
 
 /*Var a innan */
@@ -50,8 +50,6 @@ a {
 }
 /*slut på nav meny*/
 
-
-
 /*css för hela BODY*/
 body {
 	background: RGB(11 23 37);
@@ -60,7 +58,7 @@ body {
 
 /*footer*/
 footer {
-	color: RGB(211 50 136);
+	color: rgba(211, 50, 136, 1.00);
 	font-family: "IBM Plex Sans", sans-serif;
 	text-align: center;
 	padding: 15px;
@@ -86,7 +84,8 @@ footer {
 
 
 
-/*Patrycja*/
+
+/*Galleri*/
 
 
 
@@ -139,7 +138,7 @@ img {
 
 
 
-/*Emma*/
+/*Start*/
 
 
 #layout {
@@ -325,7 +324,7 @@ p {
 
 
 
-/*Annette*/
+/*Quiz*/
 
 
 
