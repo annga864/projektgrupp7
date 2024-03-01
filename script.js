@@ -62,4 +62,3 @@ function beraknaResultat() {
     resultatP.appendChild(resultatText);
     resultatDiv.appendChild(resultatP);
     document.body.appendChild(resultatDiv);
-}
