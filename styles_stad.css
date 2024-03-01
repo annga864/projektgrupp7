@@ -45,18 +45,17 @@ a {
 }
 
 .meny2:hover {
-	background-color: white;
+	background-color: aliceblue;
 	padding: 10px;
 }
-
 /*slut på nav meny*/
+
 
 
 /*css för hela BODY*/
 body {
 	background: RGB(11 23 37);
 }
-
 
 
 /*footer*/
@@ -127,7 +126,7 @@ img {
 .color img {
 	filter: grayscale(100%);
 	webkit-filter: grayscale(100%);
-	webkit-transition: all 0.3s ease;
+	webkit-transition: all 0.2s ease;
 }
 
 .color img:hover {
@@ -135,9 +134,8 @@ img {
 	gray: gray;
 	webkit-filter: grayscale(0%);
 	filter: none;
-	transition: 0.3s ease;
+	transition: 0.2s ease;
 }
-
 
 
 
