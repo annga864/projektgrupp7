@@ -117,11 +117,14 @@ main {
 #bild8,
 #bild9 {
 	padding: 15px;
-	width: 500px;
+	width: 33.33%; /* Each image takes up one-third of the available width */
+    	box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 img {
 	padding: 15px;
+	max-width: 100%; /* Ensure images don't exceed their container width */
+    	height: auto; /* Maintain aspect ratio */
 }
 
 .color img {
