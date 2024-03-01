@@ -47,12 +47,12 @@ function beraknaResultat() {
 
 
     if (gulPoang > rosaPoang && gulPoang > gronPoang) {
-        resultatKar = 'Du är gul!';
+        resultatKar = 'Du är Jonas!';
     }
      else if (rosaPoang > gulPoang && rosaPoang > gronPoang) {
-        resultatKar = 'Du är rosa!';
+        resultatKar = 'Du är Lisa!';
     } else if (gronPoang > gulPoang && gronPoang > rosaPoang) {
-        resultatKar = 'Du är grön!';
+        resultatKar = 'Du är Sara!';
     }
 
     const resultatText = document.createTextNode(resultatKar);
