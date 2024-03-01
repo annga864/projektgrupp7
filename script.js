@@ -54,9 +54,9 @@ function beraknaResultat() {
     } else if (gronPoang > gulPoang && gronPoang > rosaPoang) {
         resultatKar = 'Du är Sara!';
     } 
-}
 
     const resultatText = document.createTextNode(resultatKar);
     resultatP.appendChild(resultatText);
     resultatDiv.appendChild(resultatP);
     document.body.appendChild(resultatDiv);
+}
