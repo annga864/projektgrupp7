@@ -172,6 +172,10 @@ header {
 
 }
 
+input{
+	padding: 10px 20px;
+	Border-radius: 5px;
+}
 
 label {
 	font-size: 10pt;
