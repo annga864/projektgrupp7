@@ -10,6 +10,8 @@ nav {
 	font-size: 40pt;
 	height: 85px;
 	padding: 15px 10px 0px;
+	position: webkit-sticky;
+	position: sticky;
 }
 
 .meny3 {
@@ -157,16 +159,6 @@ img {
 		"left footer right"
 		"left footer right";
 
-
-}
-
-header {
-	text-align: center;
-	grid-area: header;
-	position: webkit-sticky;
-	position: sticky;
-	top: 0;
-	background-color: #0b1725;
 
 }
 
