@@ -103,7 +103,7 @@ main {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 /*storlek på bilderna i galleriet*/
