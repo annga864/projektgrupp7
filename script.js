@@ -34,8 +34,7 @@ function beraknaResultat() {
             rosaPoang++;
         }
     }
-    //denna funktion funkar inte^^
-
+    
     console.log(gulPoang); console.log(rosaPoang); console.log(gronPoang);
     if(document.getElementById('knapp2') != null){
         document.getElementById('knapp2').remove();
@@ -53,8 +52,6 @@ function beraknaResultat() {
         resultatKar = 'Du är Lisa!';
     } else if (gronPoang > gulPoang && gronPoang > rosaPoang) {
         resultatKar = 'Du är Sara!';
-    } else if (rosaPoang = gulPoang = gronPoang);{
-        resultatKar = 'Du är en blandning av flera karaktärer!';
     }
 
     const resultatText = document.createTextNode(resultatKar);
