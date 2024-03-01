@@ -25,6 +25,7 @@ nav {
 	/*CLASS FÖR NAVmeny*/
 	display: inline;
 	float: center;
+	font-family: "Bebas Neue", sans-serif;
 }
 
 .link {
