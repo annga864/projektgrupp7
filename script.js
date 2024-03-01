@@ -53,7 +53,7 @@ function beraknaResultat() {
         resultatKar = 'Du är Lisa!';
     } else if (gronPoang > gulPoang && gronPoang > rosaPoang) {
         resultatKar = 'Du är Sara!';
-    } else {
+    } else (rosaPoang == gulPoang == gronPoang);{
         resultatKar = 'Du är en blandning av flera karaktärer!';
     }
 
