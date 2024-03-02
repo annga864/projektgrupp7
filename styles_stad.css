@@ -9,8 +9,6 @@ nav {
 	text-align: center;
 	font-size: 40pt;
 	height: 85px;
-	position: webkit-sticky;
-	position: sticky;
 }
 
 .meny1 {
@@ -162,8 +160,6 @@ img {
 header {
 	text-align: center;
 	grid-area: header;
-	position: webkit-sticky;
-	position: sticky;
 	top: 0;
 	background-color: #0b1725;
 
