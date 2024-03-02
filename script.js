@@ -53,13 +53,13 @@ function beraknaResultat() {
     } else if (gronPoang > gulPoang && gronPoang > rosaPoang) {
         resultatKar = 'Du är Sara!';
     } else if (gronPoang == gulPoang) {
-        resultatKar = 'Du är en blandning av grön & gul!';
+        resultatKar = 'Du är en blandning av Sara & Jonas!';
     } else if (rosaPoang == gulPoang) {
-        resultatKar = 'Du är en blandning av rosa & gul!';
+        resultatKar = 'Du är en blandning av Lisa & Jonas!';
     } else if (gronPoang == rosaPoang) {
-        resultatKar = 'Du är en blandning av grön & rosa!';
+        resultatKar = 'Du är en blandning av Sara & Lisa!';
     } else if (gronPoang == gulPoang && gronPoang == rosaPoang && gulPoang == rosaPoang) {
-        resultatKar = 'Du är en blandning av flera karaktärer!';
+        resultatKar = 'Du är en blandning av alla tre!';
     }
 
     const resultatText = document.createTextNode(resultatKar);
