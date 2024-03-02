@@ -9,7 +9,7 @@ nav {
 	text-align: center;
 	font-size: 40pt;
 	height: 85px;
-	padding:0px;
+	padding: 0px;
 }
 
 .meny1 {
@@ -211,8 +211,7 @@ label {
 	flex-direction: column;
 	margin-top: 15px;
 	width: 100%;
-
-
+	padding: 0px;
 }
 
 .h1 {
