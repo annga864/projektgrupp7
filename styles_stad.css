@@ -410,6 +410,13 @@ button:hover {
 	cursor: pointer;
 }
 
+.bakbild {
+	background-image: url(tradbak.jpg);
+	background-position: center;
+	background-size: contain;
+	background-blend-mode:soft-light;
+}
+
 .fraga {
 	display: flex;
 	flex-direction: column-reverse;
