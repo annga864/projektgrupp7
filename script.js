@@ -52,6 +52,14 @@ function beraknaResultat() {
         resultatKar = 'Du är Lisa!';
     } else if (gronPoang > gulPoang && gronPoang > rosaPoang) {
         resultatKar = 'Du är Sara!';
+    } else if (gronPoang == gulPoang) {
+        resultatKar = 'Du är en blandning av grön & gul!';
+    } else if (rosaPoang == gulPoang) {
+        resultatKar = 'Du är en blandning av rosa & gul!';
+    } else if (gronPoang == rosaPoang) {
+        resultatKar = 'Du är en blandning av grön & rosa!';
+    } else if (gronPoang == gulPoang && gronPoang == rosaPoang && gulPoang == rosaPoang) {
+        resultatKar = 'Du är en blandning av flera karaktärer!';
     }
 
     const resultatText = document.createTextNode(resultatKar);
