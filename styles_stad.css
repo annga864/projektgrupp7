@@ -208,7 +208,7 @@ label {
 	display: flex;
 	flex-direction: column;
 	margin-top: 15px;
-	max-width: 100%;
+	width: 100%;
 }
 
 .h1 {
@@ -303,7 +303,7 @@ p {
 }
 
 .link {
-	/*	float: middle;*/
+	/*float: middle;*/
 	display: inline;
 }
 
@@ -315,6 +315,7 @@ p {
 
 .bild {
 	grid-area: banner;
+	max-width: 100%; /*p*/
 }
 
 
