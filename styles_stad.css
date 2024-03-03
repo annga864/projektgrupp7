@@ -109,7 +109,7 @@ main {
 #bild8,
 #bild9 {
 	padding: 5px;
-	width: 33.33%; /* Each image takes up one-third of the available width */
+	width: 400px; /* Each image takes up one-third of the available width */
     	/*box-sizing: border-box;  Include padding in the width calculation */
 }
 
