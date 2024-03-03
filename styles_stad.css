@@ -240,12 +240,6 @@ label {
 
 }
 
-.biljetter a {
-	text-decoration: none;
-	color: #D33288;
-
-}
-
 .biljetter a:hover {
 	color: white;
 	background-color: #D33288;
