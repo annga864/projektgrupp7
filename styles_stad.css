@@ -271,11 +271,6 @@ label {
 	font-family: "IBM Plex Sans", sans-serif;
 }
 
-.pcon a {
-	text-decoration: underline;
-	color: white;
-}
-
 .pcon a:hover {
 	color: hotpink;
 }
