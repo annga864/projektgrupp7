@@ -11,6 +11,14 @@ nav {
 	height: 85px;
 }
 
+.tomnav
+{
+	background-position: center;
+	background-size: contain;
+	margin: 0px;
+	margin-top: 0px;
+}
+
 .meny1 {
 	/*CLASS FÖR NAVmeny*/
 	display: inline;
@@ -32,14 +40,16 @@ a {
 
 /*Var a innan */
 .meny2 {
-	display: inline;
+	display: inline flex;
 	text-decoration: none;
-	float: center;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
 }
 
 .meny2:hover {
 	background-color: aliceblue;
-	padding: 10px;
 }
 /*slut på nav meny*/
 
@@ -295,6 +305,7 @@ p {
 #emmasbild {
 	width: 100%;
 	margin: 0px;
+	padding: 0px;
 }
 
 .bild {
