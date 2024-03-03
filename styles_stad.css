@@ -156,14 +156,6 @@ img {
 
 }
 
-header {
-	text-align: center;
-	grid-area: header;
-	top: 0;
-	background-color: #0b1725;
-
-}
-
 input{
 	padding: 10px 20px;
 	Border-radius: 5px;
