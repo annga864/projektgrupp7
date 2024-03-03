@@ -84,7 +84,7 @@ footer {
 
 
 main {
-	margin: auto 60px;
+	margin: auto 75px;
 }
 
 
@@ -108,13 +108,13 @@ main {
 #bild7,
 #bild8,
 #bild9 {
-	padding: 10px;
-	width: 440px; 
+	padding: 15px;
+	width: 450px; 
     	/*box-sizing: border-box;  Include padding in the width calculation */
 }
 
 img {
-	padding: 10px;
+	padding: 15px;
 
 }
 
