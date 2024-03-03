@@ -169,14 +169,6 @@ input{
 	Border-radius: 5px;
 }
 
-label {
-	font-size: 10pt;
-	padding: 10px;
-}
-
-
-
-
 li {
 	list-style-type: none;
 
@@ -191,6 +183,7 @@ label {
 	font-size: 13pt;
 	align-content: center;
 	font-family: "Bebas Neue", sans-serif;
+	padding: 10px;
 
 }
 
