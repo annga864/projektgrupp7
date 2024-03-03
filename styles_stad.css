@@ -294,7 +294,7 @@ p {
 
 #emmasbild {
 	width: 100%;
-
+	margin: 0px;
 }
 
 .bild {
@@ -397,6 +397,7 @@ button:hover {
 	background-position: center;
 	background-size: contain;
 	background-blend-mode:soft-light;
+	margin: 0px;
 }
 
 .fraga {
