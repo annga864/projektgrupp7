@@ -156,6 +156,16 @@ img {
 
 }
 
+header {
+	text-align: center;
+	grid-area: header;
+	position: webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #0b1725;
+
+}
+
 input{
 	padding: 10px 20px;
 	Border-radius: 5px;
