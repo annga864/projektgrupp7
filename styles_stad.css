@@ -11,6 +11,11 @@ nav {
 	height: 85px;
 }
 
+.indexnav {
+	margin: 0px;
+	padding: 0px;
+}
+
 .tomnav
 {
 	background-position: center;
@@ -34,6 +39,7 @@ nav {
 a {
 	text-decoration: none;
 	color: rgba(211, 50, 136, 1.00);
+	display: flex;
 }
 
 /*Var a innan */
@@ -45,7 +51,6 @@ a {
 	padding-left: 10px;
 	padding-right: 10px;
 	height: 85px;
-	margin-top: 10px;
 }
 
 .meny2:hover {
@@ -149,7 +154,6 @@ img {
 
 #layout {
 	display: grid;
-
 	grid-template-rows: 100px 700px 400px 100px;
 	grid-template-columns: 100px 2fr 100px;
 	grid-template-areas:
@@ -162,8 +166,6 @@ img {
 		"left pcon right"
 		"left footer right"
 		"left footer right";
-
-
 }
 
 header {
@@ -172,6 +174,7 @@ header {
 	top: 0;
 	background-color: #0b1725;
 	padding: 0px;
+	margin: 0px;
 }
 
 input{
@@ -210,7 +213,7 @@ label {
 .container {
 	display: flex;
 	flex-direction: column;
-	margin-top: 15px;
+	margin-top: 0px;
 	width: 100%;
 }
 
@@ -317,9 +320,6 @@ p {
 
 
 /*Quiz*/
-
-
-
 
 .start {
 	font-family: KHGummi;
