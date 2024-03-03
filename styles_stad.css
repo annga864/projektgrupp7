@@ -109,7 +109,7 @@ main {
 #bild8,
 #bild9 {
 	padding: 15px;
-	width: 450px; 
+	width: 475px; 
     	/*box-sizing: border-box;  Include padding in the width calculation */
 }
 
@@ -302,7 +302,7 @@ p {
 
 .bild {
 	grid-area: banner;
-	max-width: 100%; /*p*/
+	width: 100%;
 }
 
 
