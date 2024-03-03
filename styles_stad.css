@@ -95,7 +95,7 @@ main {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 /*storlek på bilderna i galleriet*/
