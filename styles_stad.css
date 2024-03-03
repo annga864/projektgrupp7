@@ -307,7 +307,10 @@ p {
 
 #emmasbild {
 	width: 100%;
-	margin: 0px;
+	margin-top: -15px;
+	margin-right: 0px;	
+	margin-bottom: 0px;
+	margin-left: 0px;
 	padding: 0px;
 }
 
