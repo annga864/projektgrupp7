@@ -98,7 +98,9 @@ footer {
 
 
 main {
-	margin: 75px;
+	top-margin: 35px;
+	right-margin: 75px;
+	left-margin: 75px;
 }
 
 
