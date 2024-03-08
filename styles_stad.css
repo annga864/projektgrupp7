@@ -233,13 +233,12 @@ img {
 
 
 
-/*löpande text*/
+/*löpande text*/ /*
 .pcon {
 
 	display: inline-grid;
 	grid-area: pcon;
-	font-family: "IBM Plex Sans", sans-serif;
-}
+}*/
 
 
 input{
@@ -277,6 +276,7 @@ label {
 
 
 p {
+	font-family: "IBM Plex Sans", sans-serif;
 	color: white;
 	font-weight: 200;
 	font-size: 15pt;
