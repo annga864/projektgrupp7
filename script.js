@@ -6,7 +6,6 @@ function beraknaResultat() {
     console.log('ok');
     const allaSvar = new Array(10);
     for (let i = 1; i <= 10; i++) {
-        //allaSvar[i - 1] = document.getElementsByName('fraga' + i);
         let nameId = "fraga" + i;
         let selectedId = document.getElementsByName(nameId);
         for (let j = 0; j < selectedId.length; j++) {
@@ -62,8 +61,7 @@ function beraknaResultat() {
             resultatKar = 'Du är en blandning av alla tre!';
         } const resultatText = document.createTextNode(resultatKar);
         resultatP.appendChild(resultatText);
-        resultatDiv.appendChild(resultatP);/*
-        document.getElementById("knapp2").appendChild(resultatDiv);*/
+        resultatDiv.appendChild(resultatP);
         if (document.getElementById('knapp2') != null) {
             console.log('test');
             const para = document.getElementById("knapp15");
