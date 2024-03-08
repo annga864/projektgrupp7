@@ -97,11 +97,9 @@ footer {
 /*Galleri*/
 
 
-
 main {
 	margin: 75px;
 }
-
 
 
 /*img-galleri inställningar aka flexbox*/
@@ -122,9 +120,12 @@ main {
 #bild6,
 #bild7,
 #bild8,
-#bild9 {
+#bild9,
+#bild10,
+#bild11,
+#bild12 {
 	padding: 15px;
-	width: 28vw; 
+	width: 27vw; 
     	/*box-sizing: border-box;  Include padding in the width calculation */
 }
 
@@ -151,7 +152,7 @@ img {
 
 /*Start*/
 
-
+/*layout på startsidan*/
 #layout {
 	display: grid;
 	grid-template-rows: 100px 700px 400px 100px;
@@ -168,14 +169,76 @@ img {
 		"left footer right";
 }
 
-header {
-	text-align: center;
-	grid-area: header;
-	top: 0;
-	background-color: #0b1725;
-	padding: 0px;
-	margin: 0px;
+.left {
+	grid-area: left;
 }
+/*banner bild*/
+#emmasbild {
+	width: 100%;
+	margin-top: -15px;
+	margin-right: 0px;	
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.bild {
+	grid-area: banner;
+	width: 100%;
+}
+/*slut på banner*/
+
+
+/*titel: Stad i ljus*/
+.h1 {
+	color: rgba(211, 50, 136, 1.00);
+	a: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -580px;
+	font-family: KHGummi;
+	font-weight: 400;
+	font-size: 20pt;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em;
+}
+
+/*Knapp för biljetter*/
+.biljetter {
+	color: #D33288;
+	background-color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+	text-decoration: none;
+	font-size: 22pt;
+	margin-top: 110px;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-color: #D33288;
+	border-width: 4px;
+	border-radius: 8px;
+	width: 160px;
+
+}
+
+.biljetter a:hover {
+	color: white;
+	background-color: #D33288;
+	text-decoration: none;
+	border-color: white;
+}
+
+
+
+
+/*löpande text*/
+.pcon {
+
+	display: inline-grid;
+	grid-area: pcon;
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
 
 input{
 	padding: 10px 20px;
@@ -201,14 +264,6 @@ label {
 }
 
 
-.left {
-	grid-area: left;
-}
-
-.right {
-	grid-area: right;
-}
-
 
 .container {
 	display: flex;
@@ -217,45 +272,24 @@ label {
 	width: 100%;
 }
 
-.h1 {
-	color: rgba(211, 50, 136, 1.00);
-	a: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: -580px;
-	font-family: KHGummi;
-	font-weight: 400;
-	font-size: 20pt;
-	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em;
-}
 
 
-.biljetter {
-	color: #D33288;
-	background-color: white;
-	text-align: center;
-	font-family: Bebas Neue;
-	text-decoration: none;
-	font-size: 22pt;
-	margin-top: 110px;
-	margin-bottom: 20px;
-	border-style: solid;
-	border-color: #D33288;
-	border-width: 4px;
-	border-radius: 8px;
-	width: 160px;
-
-}
-
-.biljetter a:hover {
+p {
 	color: white;
-	background-color: #D33288;
-	text-decoration: none;
-	border-color: white;
+	font-weight: 200;
+	font-size: 15pt;
+	grid-area: 3/3/4/4;
+	line-height: 23pt;
+
 }
 
-.quizindex {
+.link {
+	/*float: middle;*/
+	display: inline;
+}
+
+/*inställningar för knapp till quiz*/
+.quizindex { 
 	color: #D33288;
 	background-color: white;
 	text-align: center;
@@ -277,46 +311,13 @@ label {
 	background-color: #D33288;
 	text-decoration: none;
 	border-color: white;
-}
+} 
 
-.pcon {
-
-	display: inline-grid;
-	grid-area: pcon;
-	font-family: "IBM Plex Sans", sans-serif;
-}
-
-.pcon a:hover {
-	color: hotpink;
-}
-
-p {
-	color: white;
-	font-weight: 200;
-	font-size: 15pt;
-	grid-area: 3/3/4/4;
-	line-height: 23pt;
-
-}
-
-.link {
-	/*float: middle;*/
-	display: inline;
-}
+/*Slut på knapp*/
 
 
-#emmasbild {
-	width: 100%;
-	margin-top: -15px;
-	margin-right: 0px;	
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding: 0px;
-}
-
-.bild {
-	grid-area: banner;
-	width: 100%;
+.right {
+	grid-area: right;
 }
 
 
