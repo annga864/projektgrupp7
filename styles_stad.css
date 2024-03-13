@@ -387,6 +387,7 @@ p {
 
 .knapp3 { 
 	margin-top: -7px;
+	font-family: Bebas Neue;
 }
 
 button {
@@ -395,7 +396,7 @@ button {
 	text-align: center;
 	text-decoration: none;
 	font-family: Bebas Neue;
-	font-size: 16pt;
+	font-size: 22pt;
 	margin-bottom: 30px;
 	border-style: solid;
 	border-color: #D33288;
