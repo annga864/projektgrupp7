@@ -394,7 +394,7 @@ button {
 	background-color: white;
 	text-align: center;
 	text-decoration: none;
-	font-family: IBM Plex Sans;
+	font-family: Bebas Neue;
 	font-size: 16pt;
 	margin-bottom: 30px;
 	border-style: solid;
@@ -502,7 +502,7 @@ button:hover {
 }
 
 #resultat {
-	font-family: IBM Plex Sans;
+	font-family: Bebas Neue;
 	color: white;
 	text-align: center;
 	font-size: 25pt;
