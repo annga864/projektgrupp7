@@ -71,3 +71,9 @@ function beraknaResultat() {
 
 
 }
+
+$(document).ready(function(){
+    $("#toggleButton").click(function(){
+        $("#hiddenText").toggle(); // Visar eller döljer elementet
+    });
+});
