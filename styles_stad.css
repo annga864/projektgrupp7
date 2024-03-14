@@ -276,6 +276,9 @@ img {
 input{
 	padding: 10px 20px;
 	Border-radius: 5px;
+	border-color: #D33288;
+	border-style: solid;
+	margin-bottom: 10px;
 }
 
 li {
