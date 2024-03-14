@@ -230,6 +230,38 @@ img {
 	border-color: white;
 }
 
+.skicka
+{
+	color: #D33288;
+	background-color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+	text-decoration: none;
+	font-size: 22pt;
+	border-style: solid;
+	border-color: #D33288;
+	border-width: 4px;
+	border-radius: 8px;
+	width: 160px;	
+	margin-top: 20px
+}
+
+.skicka a:hover
+{
+	color: white;
+	background-color: #D33288;
+	text-decoration: none;
+	border-color: white;
+}
+
+#hiddenText {
+    display: none; /* Döljer texten som standard */
+    margin-top: 10px;
+    padding: 5px;
+	font-family:Bebas Neue;
+	font-size: 75px;
+}
+
 
 
 
