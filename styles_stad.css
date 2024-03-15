@@ -249,7 +249,6 @@ img {
 
 #hiddenText {
     display: none; /* Döljer texten som standard */
-    margin-top: 10px;
     padding: 5px;
 	font-family:Bebas Neue;
 	font-size: 75px;
