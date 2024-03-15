@@ -74,6 +74,6 @@ function beraknaResultat() {
 
 $(document).ready(function(){
     $("#toggleButton").click(function(){
-        $("#hiddenText").fadeToggle(); // Visar eller döljer elementet
+        $("#hiddenText").Toggle(); // Visar eller döljer elementet
     });
 });
