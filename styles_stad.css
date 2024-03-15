@@ -322,7 +322,10 @@ li {
 
 .box {
 	color: white;
-	padding: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	min-height: 600px;
 }
 
 label {
