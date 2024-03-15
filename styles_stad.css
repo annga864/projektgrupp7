@@ -513,8 +513,8 @@ button:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 10px;
-	min-height: 100px;
+	margin-top: -8px;
+	min-height: 105px;
 }
 
 #resultatText {
