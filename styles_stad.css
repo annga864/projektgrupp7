@@ -62,11 +62,11 @@ a {
 body {
 	background: RGB(11 23 37);
 }
-
+/*
 .content{ /*max bredd för allt*/
 	max-width: 1500px;
 	margin: auto;
-}
+}*/
 
 
 p {
