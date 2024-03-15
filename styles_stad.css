@@ -63,8 +63,8 @@ body {
 	background: RGB(11 23 37);
 }
 
-.content{
-	max-width: 1500px;
+.content{ /*max bredd för allt*/
+	max-width: 1200px;
 	margin: auto;
 }
 
