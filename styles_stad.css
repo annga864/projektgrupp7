@@ -469,6 +469,7 @@ button:hover {
 	background-size: contain;
 	background-blend-mode:soft-light;
 	margin: 0px;
+	min-height: 900px;
 }
 
 .fraga {
