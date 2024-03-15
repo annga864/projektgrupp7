@@ -63,6 +63,11 @@ body {
 	background: RGB(11 23 37);
 }
 
+.content{
+	max-width: 1500px;
+	margin: auto;
+}
+
 
 p {
 	font-family: "IBM Plex Sans", sans-serif;
