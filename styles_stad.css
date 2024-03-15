@@ -192,21 +192,6 @@ img {
 
 /*slut på banner*/
 
-
-/*titel: Stad i ljus*/
-.h1 {
-	color: rgba(211, 50, 136, 1.00);
-	a: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: -580px;
-	font-family: KHGummi;
-	font-weight: 400;
-	font-size: 20pt;
-	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em;
-}
-
 /*så att knappen är på rätt position på startsidan*/
 .startbiljett {
 	margin-left: 105px;
@@ -296,6 +281,7 @@ img {
 	border: thin;
 	margin: 15px 20px;
 	text-align: left;
+	max-width:1200px;
 	}
 
 
