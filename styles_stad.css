@@ -210,7 +210,7 @@ img {
 	margin-bottom: 20px;
 	border-style: solid;
 	border-color: #D33288;
-	border-width: 5px;
+	border-width: 4px;
 	border-radius: 5px;
 	width: 220px;
 
@@ -233,7 +233,7 @@ img {
 	font-size: 22pt;
 	border-style: solid;
 	border-color: #D33288;
-	border-width: 5px;
+	border-width: 4px;
 	border-radius: 8px;
 	width: 160px;	
 	margin-top: 20px
@@ -355,7 +355,7 @@ label {
 	margin-bottom: 30px;
 	border-style: solid;
 	border-color: #D33288;
-	border-width: 5px;
+	border-width: 4px;
 	border-radius: 8px;
 	width: 90px;
 	padding: 14px;
@@ -450,7 +450,7 @@ button {
 	margin-bottom: 30px;
 	border-style: solid;
 	border-color: #D33288;
-	border-width: 5px;
+	border-width: 4px;
 	border-radius: 8px;
 	width: 150px;
 	padding: 14px;
