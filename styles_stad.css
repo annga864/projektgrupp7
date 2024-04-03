@@ -84,6 +84,13 @@ footer {
 	margin-top: auto;
 }
 
+.surfot {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
 /*TYPSNITT*/
 .ibm-plex sans-regular {
 	font-family: "IBM Plex Sans", sans-serif;
