@@ -1,8 +1,8 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS dokument */
 
 /*CSS för alla*/
-/*NAV MENY*/
+/*Nav*/
 nav {
 	font-family: "Bebas Neue", sans-serif;
 	background-color: RGB(11 23 37);
@@ -24,8 +24,8 @@ nav {
 	margin-top: 0px;
 }
 
+/*Class för nav*/
 .meny1 {
-	/*CLASS FÖR NAVmeny*/
 	display: inline;
 	float: center;
 	padding: 0px;
@@ -42,7 +42,7 @@ a {
 	display: flex;
 }
 
-/*Var a innan */
+/*Var <a> innan */
 .meny2 {
 	display: inline flex;
 	align-items: center;
@@ -56,14 +56,12 @@ a {
 .meny2:hover {
 	background-color: white;
 }
-/*slut på nav meny*/
+/*Slut på nav*/
 
-/*css för hela BODY*/
+/*CSS för hela body*/
 body {
 	background: RGB(11 23 37);
 }
-
-
 
 p {
 	font-family: "IBM Plex Sans", sans-serif;
@@ -74,8 +72,7 @@ p {
 	line-height: 26pt;
 }
 
-
-/*footer*/
+/*Footer*/
 footer {
 	color: rgba(211, 50, 136, 1.00);
 	font-family: "IBM Plex Sans", sans-serif;
@@ -84,6 +81,7 @@ footer {
 	margin-top: auto;
 }
 
+/*Fixar footern i surveys position*/
 .surfot {
 	position: fixed;
 	bottom: 0;
@@ -91,7 +89,7 @@ footer {
 	right: 0;
 }
 
-/*TYPSNITT*/
+/*Typsnitt*/
 .ibm-plex sans-regular {
 	font-family: "IBM Plex Sans", sans-serif;
 	font-weight: 400;
@@ -109,20 +107,14 @@ footer {
 	src: url("KHGummi.otf")
 }
 
-
-
-
 /*Galleri*/
-
-
 main {
 	top-margin: 65px;
 	right-margin: 75px;
 	left-margin: 75px;
 }
 
-
-/*img-galleri inställningar aka flexbox*/
+/*Img-galleri inställningar/flexbox*/
 #flexbox {
 	display: flex;
 	flex-direction: row;
@@ -131,7 +123,7 @@ main {
 	justify-content: center;
 }
 
-/*storlek på bilderna i galleriet*/
+/*Storlek på bilderna i galleriet*/
 #bild1,
 #bild2,
 #bild3,
@@ -168,11 +160,8 @@ img {
 	transition: 0.2s ease;
 }
 
-
-
 /*Start*/
-
-/*layout på startsidan*/
+/*Layout på startsidan*/
 
 .emmasbild-container {
 	margin-top: 15px;
@@ -183,8 +172,7 @@ img {
 	grid-template-columns: auto;
 }
 
-
-/*banner bild*/
+/*Banner bild*/
 #emmasbild {
 	width: 100%;
 	margin-top: -15px;
@@ -197,14 +185,12 @@ img {
 .bild {
 	grid-area: banner;
 }
+/*Slut på banner*/
 
-/*slut på banner*/
-
-/*så att knappen är på rätt position på startsidan*/
+/*Så att knappen är på rätt position på startsidan*/
 .startbiljett {
 	margin-left: 105px;
 }
-
 
 /*Knapp för biljetter*/
 .biljetter {
@@ -263,13 +249,8 @@ img {
 	color: #D33288;
 }
 
-.hojd {
-	min-height: 100%;
-}
 
-
-/*löpande text*/ /*
-
+/*Löpande text*/
 
 /*TXT-grid*/
 .txt-container {
@@ -283,7 +264,7 @@ img {
 	margin-right: 85px;
 }
 	
-/*txt texterna*/
+/*TXT texterna*/
  .p1, .p2, .p3  { 
 	font-family: "IBM Plex Sans", sans-serif;
 	color: white;
@@ -307,8 +288,7 @@ img {
 .p3 {
 	grid-column: 1/3;
 }
-
-/*slut på txt container*/
+/*Slut på txt container*/
 
 input{
 	padding: 10px 20px;
@@ -350,11 +330,10 @@ label {
 }
 
 .link {
-	/*float: middle;*/
 	display: inline;
 }
 
-/*inställningar för knapp till quiz*/
+/*Inställningar för knapp till quiz*/
 .quizindex { 
 	color: #D33288;
 	background-color: white;
@@ -378,16 +357,9 @@ label {
 	text-decoration: none;
 	border-color: white;
 } 
-
 /*Slut på knapp*/
 
-
-
-
-
-
 /*Quiz*/
-
 .start {
 	font-family: KHGummi;
 	color: white;
@@ -496,7 +468,6 @@ button:hover {
 }
 
 .svar {
-
 	color: white;
 	font-family: IBM Plex Sans;
 	text-align: left;
