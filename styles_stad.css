@@ -166,7 +166,7 @@ img {
 .emmasbild-container {
 	margin-top: 15px;
 	margin-bottom: 65px;
-	float: center;
+	margin: 0 auto;
 	width: 100%;
 	display: inline-grid;
 	grid-template-columns: auto;
@@ -254,7 +254,7 @@ img {
 
 /*TXT-grid*/
 .txt-container {
-	float: center;
+	margin: 0 auto;
 	display: inline-grid;
 	grid-template-columns: auto auto auto;
 	border: 0.75px solid #525252;
