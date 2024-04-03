@@ -473,7 +473,7 @@ button:hover {
 	background-size: contain;
 	background-blend-mode:soft-light;
 	margin: 0px;
-	max-width: 1500px;
+	max-width: 100%;
 }
 
 .fraga {
