@@ -27,7 +27,7 @@ nav {
 /*Class för nav*/
 .meny1 {
 	display: inline;
-	float: center;
+	margin: 0 auto;
 	padding: 0px;
 }
 
