@@ -377,24 +377,18 @@ label {
 }
 
 .pic1 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 .pic2 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 .pic3 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 .char1 {
