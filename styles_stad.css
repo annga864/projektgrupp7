@@ -376,23 +376,26 @@ label {
 	gap: 50px
 }
 
-/*.pic1 {
-	background-color: #F5E11E;
-	width: 300px;
-	height: 400px;
+.pic1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .pic2 {
-	background-color: #D33288;
-	width: 300px;
-	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .pic3 {
-	background-color: #8BBE2C;
-	width: 300px;
-	height: 400px;
-}*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 
 .char1 {
 	color: white;
